@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tema Switchable - Material Design</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="theme-container">
+  <header class="header">
+    <h1 class="title">Modo Claro / Oscuro</h1>
+    <button class="theme-toggle" id="themeToggle" aria-label="cambiar tema">
+      <span class="icon">🌓</span>
+      <span class="text">Obscuro/Claro</span>
+    </button>
+  </header>
+
+  <main class="content">
+
+    <div class="card-grid" id="cardGrid"></div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 - Tema Switchable con CSS Alma Maldonado</p>
+  </footer>
+
+  <script src="js/theme.js"></script>
+</body>
+
+</html>
